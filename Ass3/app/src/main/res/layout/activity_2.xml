@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#615B5B" />
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter your phone"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#FF615B5B" />
+
+    <EditText
+        android:id="@+id/etlink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Enter your Location"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#FF615B5B" />
+
+        <EditText
+            android:id="@+id/etlocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Enter your Website"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#FF615B5B" />
+
+    <Button
+        android:id="@+id/btnTow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="?attr/colorPrimary"
+        android:text="App"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewF"
+        android:layout_width="67dp"
+        android:layout_height="58dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:contentDescription="TODO"
+        android:tag="F"
+        app:srcCompat="@drawable/ic_baseline_sentiment_satisfied_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageViewH"
+        android:layout_width="64dp"
+        android:layout_height="62dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="-63dp"
+        android:layout_marginRight="20dp"
+        android:tag="H"
+        app:srcCompat="@drawable/ic_baseline_sentiment_satisfied_alt_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageViewS"
+        android:layout_width="67dp"
+        android:layout_height="64dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="-63dp"
+        android:layout_marginRight="20dp"
+        android:tag="S"
+        app:srcCompat="@drawable/ic_baseline_sentiment_very_dissatisfied_24"
+        tools:ignore="VectorDrawableCompat" />
+
+</LinearLayout>

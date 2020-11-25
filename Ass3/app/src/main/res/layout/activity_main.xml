@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="?attr/colorPrimary"
+        android:text="Call"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnCallFriend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="?attr/colorPrimary"
+        android:text="Call Friend"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="?attr/colorPrimary"
+        android:text="open Web"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="?attr/colorPrimary"
+        android:text="Open Map"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="sans-serif"
+        android:text="Content App"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewP"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        tools:ignore="DuplicateIds,VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageViewCall"
+        android:layout_width="48dp"
+        android:layout_height="52dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_baseline_local_phone_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageViewLocation"
+        android:layout_width="50dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_baseline_room_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageView
+        android:id="@+id/imageViewWeb"
+        android:layout_width="54dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_baseline_vpn_lock_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="App" />
+
+</LinearLayout>
